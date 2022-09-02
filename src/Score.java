@@ -4,4 +4,11 @@ import java.util.*;
 import javax.swing.*;
 
 public class Score {
+
+    public Score() {
+    }
+
+    public void draw(Graphics g){
+
+    }
 }
