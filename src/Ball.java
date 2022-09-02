@@ -1,26 +1,28 @@
 import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
-import javax.swing.*;
+import java.util.Random;
 
-public class Ball {
+public class Ball extends Rectangle {
+
+    Random random;
+    int xVelocity;
+    int yVelocity;
 
     public Ball() {
     }
 
-    public void setXDirection(int randomXDirection){
+    public void setXDirection(int randomXDirection) {
 
     }
 
-    public void setYDirection(int randomYDirection){
+    public void setYDirection(int randomYDirection) {
 
     }
 
-    public void move(){
+    public void move() {
 
     }
 
-    public void draw(Graphics g){
+    public void draw(Graphics g) {
 
     }
 }
